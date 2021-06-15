@@ -1,0 +1,132 @@
+<style>
+  .hello {
+    margin: 110px 10px 150px 0px;
+    position: absolute;
+    justify-content: space-around;
+    align-items: center;
+    width: 100px;
+
+
+  }
+
+  .hello>a {
+    width: 100px;
+    font-size: 200px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #6da0d6;
+    opacity: 40%;
+
+  }
+
+  .hello>a:hover {
+    color: #94b4d6;
+    animation-name: nice;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    opacity: 80%;
+    /*     animation-duration: 2s;
+    animation: fadeIn 1s ease-in-out 3s;
+  animation-fill-mode: forwards;   */
+
+
+  }
+
+  @keyframes nice {
+    from {
+      font-size: 200px;
+    }
+
+    to {
+      font-size: 250px;
+    }
+  }
+
+  .title {
+    font-size: 200px;
+    font-kerning: normal;
+    font-family: sans-serif;
+    opacity: 100%;
+    color: #ecc86e;
+    font-variant-caps: small-caps;
+    position: absolute;
+    left: 30%;
+    top: 15%;
+
+  }
+
+ @media screen and (max-width: 1800px) {
+    .title {
+      font-size: 120px;
+      margin: 150px 20px 20px 20%;
+    }
+  }
+  
+ @media screen and (max-width: 1210px) {
+    .title {
+      font-size: 100px;
+      margin: -190px 20px 20px 1%;
+    }
+  }
+  
+
+  @media screen and (max-width: 1210px) {
+    .hello {
+      width: 100px;
+      margin: 400px 20px 20px 20%;
+    }
+
+    .hello>a {
+      font-size: 50px;
+    }
+
+
+    .hello>a:hover {
+      color: #eb4034;
+      animation-name: nicesmall;
+      animation-duration: 1s;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+      opacity: 80%;
+    }
+
+  }
+
+
+  @keyframes nicesmall {
+    from {
+      font-size: 50px;
+    }
+
+    to {
+      font-size: 100px;
+    }
+  }
+</style>
+
+<style>
+  img[alt="dancing girl"] {
+    visibility: visible;
+    margin: 2% 20px 20px 43%;
+    max-width: 300px
+  }
+  img[alt="dancing girll"] {
+    visibility: hidden;
+    margin: 3% 20px 20px 43%;
+  }
+  
+  @media screen and (max-width:1210px) {
+   img[alt="dancing girll"] {
+    visibility: visible;
+    margin: 500px 40px 20px, 20%;
+     
+    }
+    img[alt="dancing girl"] {
+    visibility: hidden;
+    }
+    
+    
+  }
+
+</style>
