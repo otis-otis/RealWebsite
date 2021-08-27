@@ -250,17 +250,20 @@
       .Header{
         color: #000000;
         font-size: 40px;
-
+        padding: 4%;
       }
 
       .Header2{
         font-size: 40px;
+        padding: 10%;
         color: rgb(161, 204, 241);
         font-family: 'Gravitas One', cursive;
         opacity: 40%;
       }
       .Header3{
         font-size: 40px;
+        padding: 20%;
+
         color: rgb(235, 217, 57);
         font-family: 'Gravitas One', cursive;
         opacity: 40%;
@@ -268,6 +271,8 @@
 
       .Header4{
         font-size: 40px;
+        padding: 20%;
+
         color: rgb(99, 111, 226);
         font-family: 'Gravitas One', cursive;
         opacity: 70%;
@@ -275,7 +280,7 @@
 
       .Header5{
         font-size: 42px;
-        padding: 10%;
+        padding: 20%;
         color: rgb(253, 172, 97);
         font-family: 'Gravitas One', cursive;
         opacity: 70%;
@@ -290,22 +295,45 @@
         .scrollHalf__grupo__imagen img {  min-height: 100vh;  min-width: 50vw; }
         .scrollHalf__grupo__contenido { margin: 0 3vw 0 52vw;}
       }
+      /* for phones */
+      
+      @media screen and (max-width:900px) {
+        .scrollHalf__grupo { min-height: 100vh;}
+        .scrollHalf__grupo__imagen {display: none;}
+        .scrollHalf__grupo__contenido {width: 100vw}
+        .Header,.Header2,.Header3,.Header4,.Header5,.project{position: relative; top: -890px;}
+        .projection {display: none; position: fixed;}
+        .plant {display: none;}
+        #menu
+      {
+        position: absolute;
+        width: 80vh;
+        height: 70vh;
+        margin: -100px 0 0 -50px;
         
-        @media only screen and (max-width: 600px) {
-          
-          iframe {
-              z-index : 1;
-              position: absolute;
-              top : -49px;
-              left    : 0;
-              width   : 50%;
-              height  : 50vh;
-              margin  : 0;
-              padding : 0;
-          }
+      }
+      
 
-        }
+      #menu li
+      {
+        padding: 10px 0;
+        font-size: 60px;
+        
+      }
+
+      #menuToggle span
+      {
+        display: block;
+        width: 60px;
+        height: 6px;
+
+      }
+        
+
+      @media screen and (min-width: 0px) and (max-width: 400px) {
+        #projection { display: none; }  /* show it on small screens */
+      }
       
 
         /* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/nature/nat-10/nat977.ani), url(https://cur.cursors-4u.net/nature/nat-10/nat977.gif), auto !important;} /* End https://www.cursors-4u.com */
-      
+    }
