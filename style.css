@@ -249,20 +249,17 @@
 
       .Header{
         color: #000000;
-        margin: 50mm;
 
       }
 
       .Header2{
         font-size: 40px;
         color: rgb(161, 204, 241);
-        margin: 60mm;
         font-family: 'Gravitas One', cursive;
         opacity: 40%;
       }
       .Header3{
         font-size: 40px;
-        margin: 60mm;
         color: rgb(235, 217, 57);
         font-family: 'Gravitas One', cursive;
         opacity: 40%;
@@ -270,7 +267,6 @@
 
       .Header4{
         font-size: 40px;
-        margin: 30mm;
         color: rgb(99, 111, 226);
         font-family: 'Gravitas One', cursive;
         opacity: 70%;
