@@ -301,7 +301,7 @@
         .scrollHalf__grupo { min-height: 100vh;}
         .scrollHalf__grupo__imagen {display: none;}
         .scrollHalf__grupo__contenido {width: 100vw}
-        .Header,.Header2,.Header3,.Header4,.Header5,.project{position: relative; top: -890px;}
+        .Header,.Header2,.Header3,.Header4,.Header5,.project{position: relative; top: -800px;}
         .projection {display: none; position: fixed;}
         .plant {display: none;}
         #menu
