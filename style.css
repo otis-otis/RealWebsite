@@ -250,29 +250,27 @@
       .Header{
         color: #000000;
         font-size: 40px;
-        padding: 4%;
+        /* padding: 4%; */
       }
 
       .Header2{
         font-size: 40px;
-        padding: 10%;
-        color: rgb(161, 204, 241);
+        /* padding: 10%; */
+        color: rgb(17, 255, 0);
         font-family: 'Gravitas One', cursive;
         opacity: 40%;
       }
       .Header3{
         font-size: 40px;
-        padding: 20%;
-
-        color: rgb(235, 217, 57);
+        /* padding: 20%; */
+        color: rgb(0, 0, 0);
         font-family: 'Gravitas One', cursive;
         opacity: 40%;
       }
 
       .Header4{
         font-size: 40px;
-        padding: 20%;
-
+        /* padding: 20%; */
         color: rgb(99, 111, 226);
         font-family: 'Gravitas One', cursive;
         opacity: 70%;
@@ -280,7 +278,7 @@
 
       .Header5{
         font-size: 42px;
-        padding: 20%;
+        padding-bottom: 20%;
         color: rgb(253, 172, 97);
         font-family: 'Gravitas One', cursive;
         opacity: 70%;
@@ -291,9 +289,9 @@
 
       @media screen and (min-width:900px) {
         .scrollHalf__grupo { min-height: 100vh;}
-        .scrollHalf__grupo__imagen { position: fixed; top: 0; left: 0; width: 50vw;}
-        .scrollHalf__grupo__imagen img {  min-height: 100vh;  min-width: 50vw; }
-        .scrollHalf__grupo__contenido { margin: 0 3vw 0 52vw;}
+        .scrollHalf__grupo__imagen { position: fixed; top: 0; left: 0; width: 2vw;}
+        .scrollHalf__grupo__imagen img {  min-height: 100vh;  min-width: 2vw; }
+        .scrollHalf__grupo__contenido { margin: 0 3vw 0 20vw;}
       }
       /* for phones */
       
