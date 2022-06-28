@@ -296,10 +296,10 @@
       /* for phones */
       
       @media screen and (max-width:900px) {
-        .scrollHalf__grupo { min-height: 100vh;}
+        .scrollHalf__grupo { min-height: 1vh;}
         .scrollHalf__grupo__imagen {display: none;}
         .scrollHalf__grupo__contenido {width: 100vw}
-        .Header,.Header2,.Header3,.Header4,.Header5,.project{position: relative; top: -800px;}
+        /* .Header,.Header2,.Header3,.Header4,.Header5,.project{position: relative; top: -500px;} */
         .projection {display: none; position: fixed;}
         .plant {display: none;}
         #menu
@@ -326,12 +326,33 @@
         height: 6px;
 
       }
+
+      /* Style all font awesome icons */
+  .fa {
+    padding: 50%;
+    font-size: 100px;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+
+  .fa-instagram {
+    background: #001b4d;
+    color: rgb(247, 0, 0);
+  }
+
+ 
         
 
       @media screen and (min-width: 0px) and (max-width: 400px) {
         #projection { display: none; }  /* show it on small screens */
       }
-      
 
         /* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/nature/nat-10/nat977.ani), url(https://cur.cursors-4u.net/nature/nat-10/nat977.gif), auto !important;} /* End https://www.cursors-4u.com */
     }
